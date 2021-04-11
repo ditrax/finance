@@ -1,0 +1,71 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+    width: 100%;
+    vertical-align: bottom;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+input,
+textarea,
+select {
+    vertical-align: middle;
+    color: #666;
+    outline: none;
+    font-family: '微软雅黑';
+    border: none;
+    resize: none;
+    background-color: transparent;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+}
+
+select {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.disnone {
+    display: none;
+}
