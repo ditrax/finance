@@ -36,10 +36,20 @@ body {
 	font-size: .3rem;
 }
 
+.form .code input {
+	width: 2.45rem;
+}
+
 .form i {
 	font-style: normal;
 	font-size: .3rem;
 	color: #313131;
+}
+
+.form em {
+	color: #0192dd;
+	font-style: normal;
+	font-size: .3rem;
 }
 
 .mode {
@@ -113,4 +123,19 @@ body {
 	border-radius: .5rem;
 	margin-top: .6rem;
 	cursor: pointer;
+}
+
+.logo {
+	width: 2.14rem;
+	position: absolute;
+	left: 50%;
+	top: 1.05rem;
+	margin-left: -1.07rem;
+}
+
+.banner {
+	height: 5.06rem;
+	background: url('../img/index/banner.png') no-repeat center;
+	background-size: 100%;
+	position: relative;
 }

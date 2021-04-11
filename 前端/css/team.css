@@ -10,8 +10,8 @@ nav li {
 	text-align: center;
 	font-size: .32rem;
 	color: #313131;
-	line-height: 1.5rem;
-	height: 1.5rem;
+	line-height: 1.2rem;
+	height: 1.2rem;
 	position: relative;
 }
 
@@ -19,7 +19,7 @@ nav li i {
 	width: 1.24rem;
 	height: .05rem;
 	position: absolute;
-	top: 1.05rem;
+	top: .9rem;
 	left: 50%;
 	margin-left: -.62rem;
 }
@@ -28,65 +28,69 @@ nav li.on i {
 	background: #0192dd;
 }
 
-main li {
+main .structure {
 	margin-top: .02rem;
 	font-size: .24rem;
 	color: #313131;
 	background: #fff;
-	height: .82rem;
+	/*height: .82rem;*/
 	line-height: .82rem;
 }
 
-main li .ico {
-	height: .82rem;
-	width: .6rem;
+main .structure.on .ico {
 	background-image: url('../img/team/team_ico1.png');
-	background-repeat: no-repeat;
-	background-position: center;
 	background-size: .26rem .26rem;
-	position: relative;
 }
 
-main li.on .ico {
+main .structure.no .ico {
 	background-image: url('../img/team/team_ico2.png');
 	background-size: .26rem .04rem;
 }
 
-main li .name {
+main .structure .ico {
+	height: .82rem;
+	width: .6rem;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	cursor: pointer;
+}
+
+main .structure .name {
 	margin-left: 1.13rem;
 	margin-right: .35rem;
 }
 
-main li .state {
+main .structure .state {
 	color: #a0a0a0;
 	margin-right: .3rem;
 }
 
-main li .num {
+main .structure .num {
 	color: #a0a0a0;
 	margin-right: .5rem;
 }
 
-main li.shape1 {
+main .structure.shape1 {
 	margin-left: .2rem;
 }
 
-main li.shape1 .name {
+main .structure.shape1 .name {
 	margin-left: .93rem;
 }
 
-main li.shape2 {
+main .structure.shape2 {
 	margin-left: .4rem;
 }
 
-main li.shape2 .name {
+main .structure.shape2 .name {
 	margin-left: .73rem;
 }
 
-main li.shape3 {
-	margin-left: .6rem;
+main .structure.shape3 {
+	margin-left: .2rem;
 }
 
-main li.shape3 .name {
+main .structure.shape3 .name {
 	margin-left: .53rem;
 }
