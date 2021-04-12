@@ -15,6 +15,14 @@
 	position: relative;
 }
 
+.banner .quit {
+	font-size: .3rem;
+	color: #ffffff;
+	position: absolute;
+	right: .3rem;
+	top: .5rem;
+}
+
 .list {
 	margin-bottom: 1.5rem;
 }
